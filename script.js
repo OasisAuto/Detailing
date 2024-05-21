@@ -1,0 +1,16 @@
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", function(event) {
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        if (!name || !email || !phone || !message) {
+            alert("Please fill in all fields.");
+            event.preventDefault();
+        }
+    });
+});
