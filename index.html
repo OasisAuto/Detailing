@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Auto detailing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Home Page -->
+    <header>
+        <div class="container">
+            <h1>Welcome to Oasis Auto detailing</h1>
+            <p>Top-notch auto detailing services to make your vehicle look brand new.</p>
+            <a href="#contact" class="btn">Book an Appointment</a>
+        </div>
+    </header>
+
+    <!-- Services Page -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-category">
+                <h3>Exterior Detailing</h3>
+                <ul>
+                    <li>Washing</li>
+                    <li>Waxing</li>
+                    <li>Polishing</li>
+                    <li>Scratch Removal</li>
+                </ul>
+            </div>
+            <div class="service-category">
+                <h3>Interior Detailing</h3>
+                <ul>
+                    <li>Vacuuming</li>
+                    <li>Upholstery Cleaning</li>
+                    <li>Leather Conditioning</li>
+                    <li>Odor Removal</li>
+                </ul>
+            </div>
+            <div class="service-category">
+                <h3>Specialty Services</h3>
+                <ul>
+                    <li>Engine Detailing</li>
+                    <li>Headlight Restoration</li>
+                    <li>Ceramic Coating</li>
+                    <li>Paint Protection Film</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Page -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Oasis Auto detailing, our mission is to provide exceptional auto detailing services that exceed our customers' expectations.</p>
+            <div class="team">
+                <h3>Our Team</h3>
+                <p>Meet our team of experienced professionals.</p>
+            </div>
+            <div class="story">
+                <h3>Our Story</h3>
+                <p>A brief history of our business and why we started it.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Page -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <p>Check out some of our recent work.</p>
+            <div class="gallery-images">
+                <!-- Add your images here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Page -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <p>Read what our satisfied customers have to say about our services.</p>
+            <div class="reviews">
+                <!-- Add customer reviews here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Page -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label for="appointment">Preferred Date and Time:</label>
+                <input type="datetime-local" id="appointment" name="appointment">
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Phone: 760-771-7475</p>
+                <p>Email: oasisautodetailingcv@gmail.com</p>
+                <p>Business Hours: Sun-Tue: 10am-5pm Wed-Sat: closed</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oasis Auto Detailing. All rights reserved.</p>
+            <div class="social-media">
+                <!-- Add social media links here -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
